@@ -7,8 +7,8 @@ import {
   FirebaseDataProvider,
 } from 'react-admin-firebase';
 import {BursaryCreate, BursaryEdit, BursaryList, BursaryShow} from "./components/bursary";
-import {TertiaryCreate, TertiaryEdit, TertiaryList} from "./components/tertiaries";
-import {JobsCreate, JobsList, ListingsEdit} from "./components/listings";
+import {TertiaryCreate, TertiaryEdit, TertiaryList, TertiaryShow} from "./components/tertiaries";
+import {JobsCreate, JobShow, JobsList, ListingsEdit} from "./components/jobs";
 import {QpCreate, QpEdit, QpList} from "./components/questionPapers";
 import {StudyMaterialsCreate, StudyMaterialsEdit, StudyMaterialsList} from "./components/studyMaterials";
 
@@ -57,12 +57,14 @@ const App = () =>
           list={TertiaryList}
           edit={TertiaryEdit}
           create={TertiaryCreate}
+          show={TertiaryShow}
       />
       <Resource
-          name="listing"
+          name="jobs"
           list={JobsList}
           edit={ListingsEdit}
           create={JobsCreate}
+          show={JobShow}
       />
       <Resource
           name="questionPapers"

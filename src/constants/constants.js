@@ -279,7 +279,7 @@ export const terms = [
 export const categoryChoices = [
     { id: 1, category: 'Internship' },
     { id: 2, category: 'Learnership' },
-    { id: 3, category: 'Jobs' },
+    { id: 3, category: 'Job' },
     { id: 4, category: 'Apprenticeship' },
 
 

@@ -59,7 +59,7 @@ export const StudyMaterialsCreate = props => (
 
             />
             <SelectInput
-                source="name"
+                source="year"
                 optionText="year"
                 optionValue="year"
                 allowEmpty

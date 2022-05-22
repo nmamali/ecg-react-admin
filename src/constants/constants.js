@@ -292,6 +292,6 @@ export const bursaryCategories = [
     { id: 4, category: 'Medical' },
     { id: 5, category: 'Commerce' },
     { id: 6, category: 'Science And Engineering' },
-    { id: 7, category: 'All' },
+    { id: 7, category: 'Any' },
 
 ];

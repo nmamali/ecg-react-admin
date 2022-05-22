@@ -40,3 +40,8 @@
     transform: rotate(360deg);
   }
 }
+
+.search-input{
+  width: 100% !important;
+  background-color: #ffa100;
+}

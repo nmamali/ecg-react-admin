@@ -11,16 +11,15 @@ import {
     Edit
 
 } from 'react-admin';
-
-import {subjects, papers, years, categories, titles, terms} from "../constants/constants"
-
+import {subjects, papers, years, categories, terms} from "../constants/constants"
 
 const QpFilter = (props) => (
     <Filter  {...props}>
         <TextInput
             label="Search"
             source="subject"
-            alwaysOn />
+            alwaysOn  name={"subject"}
+        />
     </Filter>
 );
 export const QpList = props => (
